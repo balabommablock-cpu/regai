@@ -1,0 +1,184 @@
+{
+  "circulars": [
+    {
+      "id": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "title": "Categorization and Rationalization of Mutual Fund Schemes",
+      "date": "2023-01-15",
+      "issuing_authority": "SEBI",
+      "department": "Investment Management Department",
+      "amends": ["SEBI/HO/IMD/DF3/CIR/P/2017/114", "SEBI/HO/IMD/DF3/CIR/P/2018/135"],
+      "sections": [
+        {
+          "heading": "1. Background",
+          "type": "text",
+          "content": "In order to bring uniformity in the practice of mutual fund schemes and to standardize the scheme categories, SEBI vide circular SEBI/HO/IMD/DF3/CIR/P/2017/114 dated October 06, 2017 prescribed categories of mutual fund schemes. The said circular was further amended by SEBI/HO/IMD/DF3/CIR/P/2018/135 dated December 12, 2018. Based on representations received from AMFI and various stakeholders, it has been decided to further rationalize certain provisions."
+        },
+        {
+          "heading": "2. Revised Scheme Categories",
+          "type": "table",
+          "content": {
+            "headers": ["Category", "Sub-Category", "Min Equity %", "Min Debt %", "Benchmark"],
+            "rows": [
+              ["Equity", "Large Cap", "80", "0", "NIFTY 100 TRI"],
+              ["Equity", "Mid Cap", "65", "0", "NIFTY Midcap 150 TRI"],
+              ["Equity", "Small Cap", "65", "0", "NIFTY Smallcap 250 TRI"],
+              ["Equity", "Multi Cap", "75", "0", "NIFTY 500 TRI"],
+              ["Equity", "Flexi Cap", "65", "0", "NIFTY 500 TRI"],
+              ["Equity", "Large & Mid Cap", "35 each", "0", "NIFTY LargeMidcap 250 TRI"],
+              ["Hybrid", "Aggressive Hybrid", "65-80", "20-35", "NIFTY Equity Hybrid 65:35 TRI"],
+              ["Hybrid", "Conservative Hybrid", "10-25", "75-90", "CRISIL Hybrid 75+25 TRI"],
+              ["Hybrid", "Balanced Advantage", "dynamic", "dynamic", "NIFTY 50 Hybrid Composite Debt 50:50 TRI"],
+              ["Debt", "Liquid", "0", "100", "CRISIL Liquid Fund AI TRI"],
+              ["Debt", "Overnight", "0", "100", "CRISIL Liquid Overnight TRI"],
+              ["Debt", "Corporate Bond", "0", "80", "NIFTY Corporate Bond TRI"]
+            ]
+          }
+        },
+        {
+          "heading": "3. Investment Restrictions",
+          "type": "text",
+          "content": "No mutual fund scheme shall invest more than 10% of its NAV in debt instruments issued by a single issuer. The limit may be extended to 12% with prior approval of the Board of Trustees. For Government Securities, this limit shall not apply. Investment in another scheme under the same AMC or any other mutual fund shall not exceed 5% of the NAV of the scheme."
+        },
+        {
+          "heading": "4. Compliance Timeline",
+          "type": "table",
+          "content": {
+            "headers": ["Requirement", "Deadline", "Applicable To"],
+            "rows": [
+              ["Scheme re-categorization", "March 31, 2023", "All AMCs"],
+              ["Portfolio rebalancing", "June 30, 2023", "Non-compliant schemes"],
+              ["Updated SID filing", "April 30, 2023", "All AMCs"],
+              ["Investor communication", "Within 30 days of change", "Affected schemes"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "SEBI/HO/IMD/DF3/CIR/P/2017/114",
+      "title": "Categorization and Rationalization of the Schemes - Original Circular",
+      "date": "2017-10-06",
+      "issuing_authority": "SEBI",
+      "department": "Investment Management Department",
+      "amends": [],
+      "sections": [
+        {
+          "heading": "1. Objective",
+          "type": "text",
+          "content": "In order to bring uniformity in practice across mutual funds and to standardize the scheme categories and characteristics, the following guidelines are issued. Each mutual fund shall have only one scheme per category, except for Index Funds/ETFs, Fund of Funds, and Sectoral/Thematic Funds."
+        },
+        {
+          "heading": "2. Definitions",
+          "type": "text",
+          "content": "Large Cap: 1st-100th company in terms of full market capitalization. Mid Cap: 101st-250th company in terms of full market capitalization. Small Cap: 251st company onwards in terms of full market capitalization. The list of stocks shall be prepared by AMFI and updated semi-annually based on data from BSE and NSE."
+        },
+        {
+          "heading": "3. Original Scheme Categories",
+          "type": "table",
+          "content": {
+            "headers": ["Category", "Type", "Min Investment Threshold"],
+            "rows": [
+              ["Large Cap Fund", "Equity", "80% in large cap stocks"],
+              ["Mid Cap Fund", "Equity", "65% in mid cap stocks"],
+              ["Small Cap Fund", "Equity", "65% in small cap stocks"],
+              ["Multi Cap Fund", "Equity", "65% in equity (min 25% each in large/mid/small)"],
+              ["ELSS", "Equity", "80% in equity with 3-year lock-in"],
+              ["Liquid Fund", "Debt", "Maturity up to 91 days"],
+              ["Ultra Short Duration", "Debt", "Macaulay duration 3-6 months"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "RBI/2023-24/45/FIDD.CO.Plan.BC.5/04.09.01/2023-24",
+      "title": "Priority Sector Lending - Targets and Classification",
+      "date": "2023-07-20",
+      "issuing_authority": "RBI",
+      "department": "Financial Inclusion and Development Department",
+      "amends": ["RBI/2020-21/12"],
+      "sections": [
+        {
+          "heading": "1. Overall Target",
+          "type": "text",
+          "content": "Domestic scheduled commercial banks (excluding Regional Rural Banks and Small Finance Banks) and foreign banks with 20 and above branches shall maintain priority sector lending at 40% of Adjusted Net Bank Credit (ANBC) or Credit Equivalent Amount of Off-Balance Sheet Exposure, whichever is higher."
+        },
+        {
+          "heading": "2. Sub-targets",
+          "type": "table",
+          "content": {
+            "headers": ["Category", "Target (% of ANBC)", "Applicable To"],
+            "rows": [
+              ["Agriculture", "18%", "All domestic banks"],
+              ["Micro Enterprises", "7.5%", "All domestic banks"],
+              ["Advances to Weaker Sections", "12%", "Domestic banks & foreign banks with 20+ branches"],
+              ["Small & Marginal Farmers", "10% of ANBC", "All domestic banks"],
+              ["Non-corporate Individual Farmers", "Target within agriculture", "All domestic banks"]
+            ]
+          }
+        },
+        {
+          "heading": "3. Housing Loan Limits",
+          "type": "table",
+          "content": {
+            "headers": ["Location", "Loan Limit (INR)", "Property Value Limit (INR)"],
+            "rows": [
+              ["Metropolitan centres (population > 10 lakh)", "35 lakh", "45 lakh"],
+              ["Other centres", "25 lakh", "30 lakh"]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "evaluation_qa": [
+    {
+      "question": "What is the minimum equity allocation for a Multi Cap mutual fund scheme?",
+      "expected_answer": "75% minimum equity allocation as per the revised 2023 circular (SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012). Note: The original 2017 circular required only 65% with 25% each in large/mid/small.",
+      "source_circular": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "reasoning": "Tests ability to retrieve current regulation and note amendment from original"
+    },
+    {
+      "question": "What is the investment limit for a mutual fund scheme in debt instruments of a single issuer?",
+      "expected_answer": "Maximum 10% of NAV, extendable to 12% with Board of Trustees approval. Government Securities are exempt from this limit.",
+      "source_circular": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "reasoning": "Tests extraction of numerical limits with exceptions"
+    },
+    {
+      "question": "What is the definition of a Mid Cap stock according to SEBI?",
+      "expected_answer": "101st to 250th company in terms of full market capitalization, as per the list prepared by AMFI and updated semi-annually.",
+      "source_circular": "SEBI/HO/IMD/DF3/CIR/P/2017/114",
+      "reasoning": "Tests cross-referencing definitions from the original circular when the amending circular references it"
+    },
+    {
+      "question": "What is the priority sector lending target for agriculture by domestic banks?",
+      "expected_answer": "18% of Adjusted Net Bank Credit (ANBC).",
+      "source_circular": "RBI/2023-24/45/FIDD.CO.Plan.BC.5/04.09.01/2023-24",
+      "reasoning": "Tests extraction from RBI circular tables"
+    },
+    {
+      "question": "What is the housing loan limit for priority sector classification in metropolitan centres?",
+      "expected_answer": "Loan limit of INR 35 lakh with property value up to INR 45 lakh, for metropolitan centres with population above 10 lakh.",
+      "source_circular": "RBI/2023-24/45/FIDD.CO.Plan.BC.5/04.09.01/2023-24",
+      "reasoning": "Tests table extraction with location-based conditions"
+    },
+    {
+      "question": "Which circulars does SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012 amend?",
+      "expected_answer": "It amends SEBI/HO/IMD/DF3/CIR/P/2017/114 (October 2017) and SEBI/HO/IMD/DF3/CIR/P/2018/135 (December 2018).",
+      "source_circular": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "reasoning": "Tests amendment chain tracking - critical for regulatory RAG"
+    },
+    {
+      "question": "By when must AMCs complete portfolio rebalancing for non-compliant schemes under the 2023 categorization circular?",
+      "expected_answer": "June 30, 2023.",
+      "source_circular": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "reasoning": "Tests extraction of compliance deadlines from tables"
+    },
+    {
+      "question": "What are the benchmark indices for Large Cap and Flexi Cap mutual fund categories?",
+      "expected_answer": "Large Cap: NIFTY 100 TRI. Flexi Cap: NIFTY 500 TRI.",
+      "source_circular": "SEBI/HO/IMD/IMD-I/DOF5/P/CIR/2023/012",
+      "reasoning": "Tests multi-row table extraction for comparison queries"
+    }
+  ]
+}
