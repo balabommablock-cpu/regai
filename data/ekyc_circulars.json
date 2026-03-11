@@ -1,0 +1,152 @@
+{
+  "description": "Sample eKYC/KYC regulatory circulars for Indian financial services. Covers RBI and SEBI KYC norms including Proof of Identity (PoI), Proof of Address (PoA), and eKYC via Aadhaar.",
+  "circulars": [
+    {
+      "id": "RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17",
+      "title": "Master Direction - Know Your Customer (KYC) Direction, 2016",
+      "issuing_authority": "RBI",
+      "date": "2016-02-25",
+      "amends": [],
+      "sections": [
+        {
+          "heading": "Definition of eKYC",
+          "type": "text",
+          "content": "e-KYC means the process of electronic verification of the identity of a client using Aadhaar authentication or offline verification of Aadhaar or equivalent digital means as approved by the Reserve Bank. The eKYC process shall be treated as equivalent to physical KYC for all regulatory purposes."
+        },
+        {
+          "heading": "Officially Valid Documents for Proof of Identity",
+          "type": "table",
+          "content": {
+            "headers": ["Document Type", "Issuing Authority", "Accepted As", "Notes"],
+            "rows": [
+              ["Aadhaar Letter/Card", "UIDAI", "PoI and PoA", "Mandatory for eKYC; voluntary for physical KYC per Supreme Court ruling"],
+              ["Passport", "Ministry of External Affairs", "PoI and PoA", "Accepted universally"],
+              ["Voter ID Card", "Election Commission", "PoI only", "Address may not be current; requires separate PoA"],
+              ["Driving License", "State RTO", "PoI and PoA", "Must not be expired"],
+              ["PAN Card", "Income Tax Department", "PoI only", "Does not contain address; cannot be used as PoA"],
+              ["NREGA Job Card", "Ministry of Rural Development", "PoI and PoA", "Accepted for simplified due diligence accounts only"]
+            ]
+          }
+        },
+        {
+          "heading": "Customer Due Diligence - Risk Classification",
+          "type": "table",
+          "content": {
+            "headers": ["Risk Category", "CDD Requirement", "Re-verification Period", "Transaction Limits"],
+            "rows": [
+              ["Low Risk", "Simplified Due Diligence (SDD)", "10 years", "Balance <= Rs 50,000; annual credits <= Rs 1,00,000"],
+              ["Medium Risk", "Standard CDD", "8 years", "No specific limits"],
+              ["High Risk", "Enhanced Due Diligence (EDD)", "2 years", "No specific limits but enhanced monitoring required"],
+              ["PEP (Politically Exposed Person)", "Enhanced Due Diligence + Senior Management Approval", "Annual review", "All transactions monitored"]
+            ]
+          }
+        },
+        {
+          "heading": "eKYC Process via Aadhaar",
+          "type": "text",
+          "content": "Aadhaar eKYC can be performed through two modes: (a) OTP-based authentication - where the customer receives a one-time password on their registered mobile number, and (b) Biometric authentication - using fingerprint or iris scan. OTP-based eKYC is permitted for accounts with reduced transaction limits (balance up to Rs 1 lakh and annual turnover up to Rs 2 lakh). For full-KYC equivalent status, biometric authentication or in-person verification with Aadhaar XML/offline verification is required."
+        },
+        {
+          "heading": "V-CIP (Video-based Customer Identification Process)",
+          "type": "text",
+          "content": "Regulated Entities may undertake live V-CIP as an alternative to in-person verification. The V-CIP shall include (i) live video interaction with the customer, (ii) capture of customer photograph and OVD, (iii) Aadhaar XML verification or equivalent, (iv) geo-tagging, (v) recording of the entire process. V-CIP can be performed by trained officials of the RE and is treated equivalent to in-person verification for CDD purposes. As amended by RBI/2020-21/17."
+        }
+      ]
+    },
+    {
+      "id": "RBI/2020-21/17/DOR.AML.REC.8/14.01.001/2020-21",
+      "title": "Amendment to KYC Master Direction - V-CIP and eKYC Updates",
+      "issuing_authority": "RBI",
+      "date": "2020-05-01",
+      "amends": ["RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17"],
+      "sections": [
+        {
+          "heading": "Enhanced V-CIP Requirements",
+          "type": "text",
+          "content": "V-CIP shall be carried out by an official of the RE who has been specifically trained for this purpose. The process shall involve (a) capturing a clear image of the PAN card or equivalent OVD, (b) live photograph matching with the OVD, (c) Aadhaar XML or Digilocker verification, (d) customer's live location through geo-tagging. The entire V-CIP process must be recorded and stored as per extant data retention norms. A robust technology platform with end-to-end encryption is mandatory."
+        },
+        {
+          "heading": "OTP-based eKYC Relaxations",
+          "type": "text",
+          "content": "OTP-based eKYC is permitted for opening accounts where the balance does not exceed Rs 1 lakh and the aggregate of all credits in a financial year does not exceed Rs 2 lakh. This relaxation supersedes the earlier limit of Rs 50,000 balance and Rs 1 lakh annual credit specified in the original Master Direction. Accounts opened via OTP-based eKYC must be converted to full-KYC within 12 months, failing which the account shall be restricted to debit transactions only."
+        },
+        {
+          "heading": "Digital KYC Process",
+          "type": "text",
+          "content": "Digital KYC refers to capturing live photo of the customer and OVD along with geotagging at the customer's location by an authorized officer of the RE. This is distinct from V-CIP (which is video-based and remote) and from eKYC (which is Aadhaar-based). Digital KYC requires physical presence of the RE's officer at the customer's location."
+        }
+      ]
+    },
+    {
+      "id": "SEBI/HO/MIRSD/DoP/CIR/P/2022/52",
+      "title": "Simplification of KYC Process for Securities Market",
+      "issuing_authority": "SEBI",
+      "date": "2022-04-12",
+      "amends": [],
+      "sections": [
+        {
+          "heading": "KRA-KYC Registration Agencies",
+          "type": "text",
+          "content": "All KYC records for securities market participants shall be maintained through SEBI-registered KYC Registration Agencies (KRAs). Currently registered KRAs include CDSL Ventures Limited (CVL), NSDL Database Management Limited (NDML), DotEx International Limited, and CAMS Investor Services Private Limited. Intermediaries must upload KYC records to KRA within 10 working days of account opening."
+        },
+        {
+          "heading": "Acceptable Documents for Securities Market KYC",
+          "type": "table",
+          "content": {
+            "headers": ["Document", "PoI", "PoA", "Special Conditions"],
+            "rows": [
+              ["Aadhaar", "Yes", "Yes", "Mandatory for eKYC route; linked to PAN for demat"],
+              ["PAN Card", "Yes", "No", "Mandatory for all securities market transactions"],
+              ["Passport", "Yes", "Yes", "For NRI/FPI accounts, passport is mandatory"],
+              ["Bank Statement (< 3 months)", "No", "Yes", "Must be from a scheduled bank"],
+              ["Utility Bill (< 2 months)", "No", "Yes", "Electricity, telephone, or gas bill only"]
+            ]
+          }
+        },
+        {
+          "heading": "Aadhaar-PAN Linking Requirement",
+          "type": "text",
+          "content": "All existing and new demat account holders must link their Aadhaar with PAN. Failure to link Aadhaar-PAN by the prescribed deadline results in the PAN becoming inoperative, which in turn restricts securities market transactions including trading, settlement, and corporate actions. This requirement is per Section 139AA of the Income Tax Act, read with SEBI circular SEBI/HO/MIRSD/MIRSD-PoD-1/CIR/P/2023/37."
+        }
+      ]
+    }
+  ],
+  "evaluation_qa": [
+    {
+      "question": "Can I open a demat account using only OTP-based eKYC?",
+      "expected_answer": "OTP-based eKYC has transaction limits (balance up to Rs 1 lakh, annual credits up to Rs 2 lakh per the amended RBI direction). For demat accounts, SEBI requires PAN and Aadhaar-PAN linking. OTP-based eKYC may be used initially but must be converted to full-KYC within 12 months.",
+      "requires_cross_reference": true,
+      "circulars_needed": ["RBI/2020-21/17/DOR.AML.REC.8/14.01.001/2020-21", "SEBI/HO/MIRSD/DoP/CIR/P/2022/52"]
+    },
+    {
+      "question": "What is the difference between V-CIP, eKYC, and Digital KYC?",
+      "expected_answer": "eKYC uses Aadhaar authentication (OTP or biometric). V-CIP uses live video interaction remotely with geo-tagging and is equivalent to in-person verification. Digital KYC requires physical presence of the RE's officer at the customer's location to capture live photo and OVD with geotagging. All three are distinct processes with different regulatory treatments.",
+      "requires_cross_reference": true,
+      "circulars_needed": ["RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17", "RBI/2020-21/17/DOR.AML.REC.8/14.01.001/2020-21"]
+    },
+    {
+      "question": "Can a Voter ID card be used as Proof of Address for opening a bank account?",
+      "expected_answer": "No. Per the RBI KYC Master Direction, Voter ID Card is accepted as Proof of Identity only. It cannot be used as Proof of Address because the address may not be current. A separate PoA document is required.",
+      "requires_cross_reference": false,
+      "circulars_needed": ["RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17"]
+    },
+    {
+      "question": "What happens if I don't link my Aadhaar with PAN for my demat account?",
+      "expected_answer": "Per SEBI circular, failure to link Aadhaar-PAN by the prescribed deadline results in PAN becoming inoperative, which restricts securities market transactions including trading, settlement, and corporate actions. This is per Section 139AA of the Income Tax Act.",
+      "requires_cross_reference": false,
+      "circulars_needed": ["SEBI/HO/MIRSD/DoP/CIR/P/2022/52"]
+    },
+    {
+      "question": "What are the transaction limits for an account opened with OTP-based eKYC after the 2020 amendment?",
+      "expected_answer": "After the 2020 amendment, OTP-based eKYC accounts have a balance limit of Rs 1 lakh and aggregate annual credits limit of Rs 2 lakh. This supersedes the earlier limits of Rs 50,000 balance and Rs 1 lakh annual credit. The account must be converted to full-KYC within 12 months or it will be restricted to debit transactions only.",
+      "requires_cross_reference": true,
+      "circulars_needed": ["RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17", "RBI/2020-21/17/DOR.AML.REC.8/14.01.001/2020-21"]
+    },
+    {
+      "question": "What is the re-verification period for a Politically Exposed Person (PEP)?",
+      "expected_answer": "PEPs require annual review with Enhanced Due Diligence plus Senior Management Approval. All transactions are monitored.",
+      "requires_cross_reference": false,
+      "circulars_needed": ["RBI/2016-17/81/DBR.AML.BC.No.18/14.01.001/2016-17"]
+    }
+  ]
+}
